@@ -1,0 +1,48 @@
+/*
+    General 
+*/
+a {
+    text-decoration: none;
+}
+
+/*
+    Top
+*/
+.title {
+    text-align: center;    
+    margin: 35px 0px;
+}
+.header-text {
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.main-box {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.personal-links {
+    padding: 0 2%;
+    text-decoration: none;
+}
+
+
+/*
+ *  My Publication Section
+ */
+.publ-box {
+    margin: 4% 0;
+}
+.publ-title {
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+.publ-text {
+    margin: 5px 0 0 0;
+}
+.publ-date{
+    color: #a39999;
+    padding-right: 15px;
+    text-align: right;
+    width: 140px;
+    display: inline-block;
+}
