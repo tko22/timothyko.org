@@ -10,14 +10,13 @@ a {
 */
 .title {
     text-align: center;    
-    margin: 35px 0px;
+    margin: 5% 0;
 }
 .header-text {
     letter-spacing: 3px;
     font-size: 18px;
 }
 .main-box {
-    margin-top: 5%;
     margin-bottom: 1%;
 }
 .personal-links {
