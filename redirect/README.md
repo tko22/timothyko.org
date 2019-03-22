@@ -1,0 +1,1 @@
+Redirects `timothyko.org` to `www.timothyko.org`. Specific to the Zeit now platform. blank html is intentional.

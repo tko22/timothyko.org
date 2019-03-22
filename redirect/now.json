@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "timothyko.org-redirect",
+  "alias": [
+    "timothyko.org"
+  ],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.timothyko.org/$1"
+      }
+    }
+  ]
+}
