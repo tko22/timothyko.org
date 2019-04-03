@@ -4,25 +4,8 @@
   "alias": "www.timothyko.org",
   "builds": [
     {
-      "src": "writing/package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "public"
-      }
-    },
-    {
-      "src": "www/**",
-      "use": "@now/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/writing/(.*)",
-      "dest": "/writing/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/www/$1"
+      "src": "package.json",
+      "use": "@now/static-build"
     }
   ]
 }
