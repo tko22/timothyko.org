@@ -1,0 +1,78 @@
+{
+  "name": "timothy-ko-personal-site",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "now-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.20.3",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-mdx": "^1.2.0",
+    "babel-plugin-root-import": "^6.1.0",
+    "next": "^8.0.4",
+    "next-seo": "^1.11.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-loadable": "^5.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-preval": "^3.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import-b5a962": "^2.3.0",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "impliedStrict": true,
+        "experimentalObjectRestSpread": true
+      },
+      "allowImportExportEverywhere": true
+    },
+    "plugins": [
+      "react",
+      "import-b5a962"
+    ],
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "func-names": [
+        "error",
+        "as-needed"
+      ],
+      "no-shadow": "error",
+      "import-b5a962/no-mutable-exports": "error",
+      "import-b5a962/no-anonymous-default-export": [
+        "error",
+        {
+          "allowArray": true,
+          "allowArrowFunction": true,
+          "allowLiteral": true,
+          "allowObject": true
+        }
+      ],
+      "no-extra-semi": 0,
+      "no-useless-escape": 0,
+      "react/prop-types": 0,
+      "react/react-in-jsx-scope": 0,
+      "react/no-unescaped-entities": 0,
+      "react/jsx-no-target-blank": 0,
+      "react/no-string-refs": 0
+    }
+  }
+}
