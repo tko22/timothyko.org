@@ -3,6 +3,10 @@ export const STYLES = css.global`
   /*
   General 
   */
+  body {
+    font-family: 'Source Sans Pro', serif;
+    font-size: 16px;
+  }
   a {
     text-decoration: none;
   }
@@ -39,13 +43,14 @@ export const STYLES = css.global`
     margin: 4% 0;
   }
   .publ-title {
-    font-size: 18px;
+    font-size: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 5px;
   }
   .publ-text {
     margin: 5px 0 0 0;
   }
-  .publ-date{
+  .publ-date {
     color: #a39999;
     padding-right: 15px;
     text-align: right;

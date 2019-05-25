@@ -19,7 +19,7 @@ class Layout extends Component {
             </div>
           </div> :
           <Fragment>
-            <div style={{ fontFamily: "'Raleway', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'" }}>
+            <div >
               {children}
             </div>
           </Fragment>

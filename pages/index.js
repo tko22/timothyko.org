@@ -6,24 +6,26 @@ export default () => (
       <div className="row">
         <div className="two-thirds column main-box">
           <p>
-            Hey there! I'm a junior studying Computer Engineering at the University of Illinois Urbana-Champaign. I
-            interned at Tesla this summer and I'm currently the Co-Director of <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC.
-            </a> I also have a <a href="https://medium.com/@timmykko">blog</a>, where I write articles and guides on topics ranging from Web Development to Docker to Ethereum.
+            Hey there! I'm an upcoming senior studying Computer Engineering at <a href="https://ece.illinois.edu">UIUC</a>. I'm currently interning at Uber this summer and I previously interned at Tesla. I was also the Co-Director of a very new tech & social good organization - <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC.</a>
           </p>
+          <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p>
+          <p className="email-padding">Email Me: <a href="mailto:tk2@illinois.edu">tk2@illinois.edu</a></p>
           <div>
             <a href="https://resume.timothyko.org" className="personal-links">Resume</a>
             <a href="https://github.com/tko22" className="personal-links">Github</a>
             <a href="https://medium.com/@timmykko" className="personal-links">Medium</a>
             <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a>
-            <a href="mailto:tk2@illinois.edu" className="personal-links">Email</a>
             <a href="https://twitter.com/timmykko6" className="personal-links">Twitter</a>
           </div>
+
         </div>
+
       </div>
       <hr className="middle-break" />
       <div className="row">
         <div className="publ-box">
-          <h5 className="publ-title">My Medium Posts</h5>
+          <h5 className="publ-title">My Writing</h5>
+          <span className="medium-post-subtitle">Over 350k people have read my writing in the past year!</span>
           <div className="row">
             <div className="publ-text"><span className="publ-date">Mar 7, 2018</span><a
               href="https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9">A
@@ -50,5 +52,16 @@ export default () => (
         </div>
       </div>
     </div>
+    <style jsx>{`
+      .medium-post-subtitle {
+        font-size: 14px;
+        color: grey;
+        margin-bottom: 5px;
+      }
+      .email-padding {
+        padding: 0 2%;
+        margin-bottom: 5px;
+      }
+    `}</style>
   </>
 )

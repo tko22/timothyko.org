@@ -55,6 +55,7 @@ export default () => (
         margin-top: 0;
         box-shadow: none;
         color: inherit;
+        font-family: 'Merriweather', sans-serif;
       }
       .post-link {
         text-decoration: underline;

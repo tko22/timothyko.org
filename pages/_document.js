@@ -68,18 +68,13 @@ export default class MyDocument extends Document {
             name="msapplication-TileImage"
             content="/static/icons/favicon.png"
           />
-          {/*
-                    <script>
-                         Add a Google Analytics script here.
-                    </script>
-                    */}
 
-          {/* fonts */}
-          <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
-          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
 
           {/* Normalize Css */}
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' />
+
+          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
 
 
           <script
