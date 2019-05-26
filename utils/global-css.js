@@ -30,10 +30,6 @@ export const STYLES = css.global`
   .main-box {
     margin-bottom: 1%;
   }
-  .personal-links {
-    padding: 0 2%;
-    text-decoration: none;
-  }
 
 
   /*

@@ -6,12 +6,12 @@ export default () => (
       <div className="row">
         <div className="two-thirds column main-box">
           <p>
-            Hey there! I'm an upcoming senior studying Computer Engineering at <a href="https://ece.illinois.edu">UIUC</a>. I'm currently interning at Uber this summer and I previously interned at Tesla. I was also the Co-Director of a very new tech & social good organization - <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC.</a>
+            Hey there! I'm an undergrad at <a href="https://ece.illinois.edu">UIUC</a> and I'm interning at Uber. I previously interned at Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
           </p>
-          <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p>
-          <p className="email-padding">Email Me: <a href="mailto:tk2@illinois.edu">tk2@illinois.edu</a></p>
+          {/* <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p> */}
+          <p>Email Me: <a href="mailto:tk2@illinois.edu">tk2@illinois.edu</a></p>
           <div>
-            <a href="https://resume.timothyko.org" className="personal-links">Resume</a>
+            <a href="https://resume.timothyko.org">Resume</a>
             <a href="https://github.com/tko22" className="personal-links">Github</a>
             <a href="https://medium.com/@timmykko" className="personal-links">Medium</a>
             <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a>
@@ -61,6 +61,10 @@ export default () => (
       .email-padding {
         padding: 0 2%;
         margin-bottom: 5px;
+      }
+      .personal-links {
+        padding: 0 2%;
+        text-decoration: none;
       }
     `}</style>
   </>
