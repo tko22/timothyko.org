@@ -9,7 +9,7 @@ export default () => (
             Hey there! I'm an undergrad at <a href="https://ece.illinois.edu">UIUC</a> and I'm interning at Uber. I previously interned at Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
           </p>
           {/* <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p> */}
-          <p>Email Me: <a href="mailto:tk2@illinois.edu">tk2@illinois.edu</a></p>
+          <p>Email Me: <a href="mailto:timothy.l.ko@gmail.com">timothy.l.ko@gmail.com</a></p>
           <div>
             <a href="https://resume.timothyko.org">Resume</a>
             <a href="https://github.com/tko22" className="personal-links">Github</a>
