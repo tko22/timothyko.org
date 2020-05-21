@@ -27,6 +27,13 @@ export default () => (
           <h5 className="publ-title">My Writing</h5>
           <span className="medium-post-subtitle">Over 450k people have read my writing in the past year!</span>
           <div className="row">
+            <div className="publ-text"><span className="publ-date">Aug 29, 2019</span>
+              <a href="https://medium.com/hack4impact-uiuc/hack4impact-a-community-of-students-that-care-7fce765f1364">
+              Hack4Impact — A community of students that care
+              </a></div>
+            <div className="publ-text"><span className="publ-date">Aug 26, 2019</span><a
+              href="https://medium.com/hack4impact-uiuc/growing-a-new-student-organization-92b4585d1ae2">
+                Growing a new Student Organization - a semester in Review</a></div>
             <div className="publ-text"><span className="publ-date">Mar 7, 2018</span><a
               href="https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9">A
               guide to developing an Ethereum decentralized voting application</a></div>
