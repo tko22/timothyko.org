@@ -6,7 +6,7 @@ export default () => (
       <div className="row">
         <div className="two-thirds column main-box">
           <p>
-            Hey there! I'm an undergrad at <a href="https://ece.illinois.edu">UIUC</a> and I'm interning at Uber. I previously interned at Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
+            Hey there! I just graduated <a href="https://ece.illinois.edu">UIUC</a> and I'm actively looking for Software Engineering opportunities. I previously interned at Uber and Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
           </p>
           {/* <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p> */}
           <p>Email Me: <a href="mailto:timothy.l.ko@gmail.com">timothy.l.ko@gmail.com</a></p>
@@ -25,7 +25,7 @@ export default () => (
       <div className="row">
         <div className="publ-box">
           <h5 className="publ-title">My Writing</h5>
-          <span className="medium-post-subtitle">Over 350k people have read my writing in the past year!</span>
+          <span className="medium-post-subtitle">Over 450k people have read my writing in the past year!</span>
           <div className="row">
             <div className="publ-text"><span className="publ-date">Mar 7, 2018</span><a
               href="https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9">A
