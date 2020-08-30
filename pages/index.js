@@ -6,7 +6,7 @@ export default () => (
       <div className="row">
         <div className="two-thirds column main-box">
           <p>
-            Hey there! I just graduated <a href="https://ece.illinois.edu">UIUC</a> and I'm actively looking for Software Engineering opportunities. I previously interned at Uber and Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
+            Hey there! I just graduated <a href="https://ece.illinois.edu">UIUC</a> and I'm currently a software engineer at Apple. I previously interned at Uber and Tesla and led a new tech x social good org, <a href="https://uiuc.hack4impact.org">Hack4Impact UIUC</a>. I love building things. 😃
           </p>
           {/* <p>My passions lie in leading unified and effective teams, how we as humans absorb and retain information, and designing and developing beautiful products. </p> */}
           <p>Email Me: <a href="mailto:timothy.l.ko@gmail.com">timothy.l.ko@gmail.com</a></p>
